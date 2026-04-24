@@ -65,7 +65,14 @@ cd iron
 composer install
 ```
 
-**3. Start the development server**
+**3. Copy the example environment file**
+
+```bash
+cp env.example .env
+
+```
+
+**4. Start the development server**
 
 ```bash
 php spark serve
