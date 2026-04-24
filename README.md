@@ -88,3 +88,14 @@ The sign-up form (`POST /signup`) validates the email address server-side and lo
 
 ---
 
+## Troubleshooting Permissions
+
+If you see an error like:
+
+    Cache unable to write to "writable/cache/"
+
+or any other permission-related error for the `writable` directory, run the following command to fix permissions:
+
+```bash
+chmod -R 775 writable
+```
